@@ -1,0 +1,25 @@
+{
+  "name": "kraitlog-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --watch src --ext js,ts --exec 'serverless offline --stage dev'",
+    "lint": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@serverless/typescript": "^3.38.0",
+    "@types/aws-lambda": "^8.10.147",
+    "@types/node": "^22.10.5",
+    "eslint": "^9.17.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "neostandard": "^0.12.0",
+    "nodemon": "^3.1.9",
+    "serverless": "^4.4.18",
+    "serverless-offline": "^14.4.0",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.2"
+  }
+}
